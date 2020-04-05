@@ -3,7 +3,8 @@ A program for administering and managing multiple Minecraft servers on the same 
 
 ## Requirements
 `Minecraft_Server_Controller` requires python 3.8 or higher.
-`Minecraft_Server_Controller` requires the use on mcipc which is being used under GNU General Public License and was originally created by github.com user conqp and can be found here https://github.com/conqp/mcipc
+
+`Minecraft_Server_Controller` requires the use on mcipc which is being used under GNU General Public License and was originally created by github.com user conqp and can be found here https://github.com/conqp/mcipc.
 
 ## Usage
 the program is entirely used throught the `GUI.py` file in the repositpory. Usage does require basic knowledege of administering a minecraft server and to have set up the RCON protocol on which ever server you wish to manage. This can be done by editing the `server.properties` file in the directory where you have installed your files. You also need to have the server to be usign a `serverstart.bat` to start your server. I have provided an example one if you don't know how to create one, you will need to change the `.jar` file if you decide to use that one.
